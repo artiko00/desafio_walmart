@@ -9,8 +9,12 @@
               href="https://api.whatsapp.com/send?phone=56957211492&text=Hola!%20Tengo%20una%20consulta"
             >+56957211492</a> | Horario: de lunes a viernes de 8:00 a 22:00 y sábado, domingo y festivos de 9:00 a 22:00
           </div>
-          <div class="col-1">agenda tu visita</div>
-          <div class="col-2">locales y horarios</div>
+          <div class="col-2">
+            <b-icon-calendar2-minus></b-icon-calendar2-minus>agenda tu visita
+          </div>
+          <div class="col-2">
+            <b-icon-house></b-icon-house>locales y horarios
+          </div>
         </div>
       </div>
     </div>
@@ -64,6 +68,12 @@
       <div class="w-100"></div>
       <div class="col">
         <HelloWorld :productos="otrosProductos" :descuentos="aplica_descuento" />
+      </div>
+      <div class="w-100"></div>
+      <div class="col text-center" v-show="otrosProductos.length <= 0">
+        <b-jumbotron header="Promoción Líder" lead="Encuentra un palíndromo">
+          <p>¡Por qué en líder nos preocupamos por tu bolsillo, te invitamos a participar de este entretenido concurso, si la búsqueda de tu producto es un palíndromo, sea en su nombre, descripción o identificador te realizaremos un descuento!</p>
+        </b-jumbotron>
       </div>
     </div>
   </div>
