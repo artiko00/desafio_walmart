@@ -3,7 +3,7 @@
     <div class="col">
       <div class="card-columns">
         <div v-for="producto in productos" :key="producto.id" class="card text-center">
-           <img :src="'http://'+producto.image" class="card-img-top" style="max-width:15vw;" />
+           <img :src="'http://'+producto.image" class="card-img-top"/>
           <div class="card-body">
             <h5 class="card-title">{{producto.brand}}</h5>
             <p class="card-text">{{producto.description}}</p>

@@ -2,18 +2,18 @@
   <div class="col">
     <div class="row">
       <div class="col anuncio">
-        <div class="row d-flex align-items-center">
-          <div class="col p-1">
+        <div class="row d-flex align-items-center text-center">
+          <div class="col-md-8 p-1">
             Servicio al cliente de Lider.cl: WhatsApp
             <a
               href="https://api.whatsapp.com/send?phone=56957211492&text=Hola!%20Tengo%20una%20consulta"
             >+56957211492</a> | Horario: de lunes a viernes de 8:00 a 22:00 y sábado, domingo y festivos de 9:00 a 22:00
           </div>
-          <div class="col-2">
-            <b-icon-calendar2-minus></b-icon-calendar2-minus>agenda tu visita
+          <div class="col-md-2">
+            <b-icon-calendar2-minus></b-icon-calendar2-minus> agenda tu visita
           </div>
-          <div class="col-2">
-            <b-icon-house></b-icon-house>locales y horarios
+          <div class="col-md-2">
+            <b-icon-house></b-icon-house> locales y horarios
           </div>
         </div>
       </div>
@@ -21,15 +21,15 @@
     <div class="row">
       <div class="col">
         <div class="row barra d-flex align-items-center">
-          <div class="col-1">
+          <div class="col-md-1">
             <img :src="logo" alt srcset />
           </div>
-          <div class="col-2">
+          <div class="col-md-2">
             <button class="btn btn-primary btn-block">
               <b-icon-justify></b-icon-justify>Categorías
             </button>
           </div>
-          <div class="col">
+          <div class="col-md-6">
             <div class="input-group">
               <input
                 type="text"
@@ -44,13 +44,13 @@
               </div>
             </div>
           </div>
-          <div class="col-1">
+          <div class="col-md-1">
             <b-button class="btn btn-warning btn-block">
               <b-icon-cart3></b-icon-cart3>
               <b-badge>0</b-badge>
             </b-button>
           </div>
-          <div class="col-2">
+          <div class="col-md-2">
             <b-button class="btn btn-success btn-block">
               <b-icon-cart4></b-icon-cart4>Supermercado
             </b-button>
